@@ -1,1 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Niconne|Lusitana);
+
+html {
+  overflow: scroll;
+  font-size: 62.5%;
+}
+body {
+  background-color: #f8f4ee;
+  color: #333;
+  font-family: 'Lusitana', "Times New Roman", serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
+}
 * { box-sizing: border-box }
+
+
+aside.lateral a,
+aside.lateral a:hover,
+aside.lateral a:visited,
+main article .post-title a, 
+main article .post-title a:hover,
+main article .post-title a:visited { 
+  color: inherit;
+  text-decoration: none;
+}
+
+
+header.blog {
+  margin: 50px auto 20px;
+  position: relative;
+  z-index: 50;
+  width: 600px;
+  background-image: url(http://s2.wp.com/wp-content/themes/pub/lovebirds/img/vines.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 40px;
+}
+header.blog .image {
+  display: block;
+  float: none;
+  margin: 0 auto 30px auto;
+  width: 200px;
+}
+header.blog .title,
+header.blog .title a {
+  color: #e55564;
+  font-family: 'Niconne', cursive;
+  font-weight: normal;
+  font-size: 340%;
+  line-height: 90%;
+  text-align: center;
+  text-decoration: none;
+}
+header.blog .author {
+  display: none;
+}
+
+
+
+aside.lateral {
+  float: left;
+  width: 25%;
+  overflow: hidden;
+}
+aside.lateral .author { }
+aside.lateral .author .picture { 
+  margin: 0 auto 30px auto;
+  width: 250px;
+}
+aside.lateral section {
+  display: inline-block;
+  font-size: 90%;
+  margin: 0 0 1.5em;
+  padding: 0 0 1.5em;
+  width: 100%;
+  word-wrap: break-word;
+}
+aside.lateral section h4 {
+  color: #e55564;
+  font-family: 'Niconne', cursive;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  text-decoration: none; 
+}
+aside.lateral section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+aside.lateral section ul li {
+  padding: 10px 0;
+}
+
+
+main {
+  float: right;
+  width: 75%;
+}
+main .posts,
+main .single-post {
+  min-height: 700%;
+}
+main .posts article,
+main .single-post article {
+  background: #fff;
+  border: 5px solid #e8d9d0;
+  clear: both;
+  margin: 0 0 1.5em;
+  padding: 1.5em;
+}
+main .posts article .post-title, 
+main .single-post article .post-title {
+  color: #e55564;
+  font-family: 'Niconne', cursive;
+  font-size: 32px;
+  margin: 0;
+  text-decoration: none;
+}
+main .posts article .post-meta,
+main .single-post article .post-meta {
+  clear: both;
+  font-size: 90%;
+  text-transform: uppercase;
+  color: #462917;
+}
+main .posts article .post-body { }
+main .single-post article .post-body { }
+main .posts article .post-body p,
+main .single-post article .post-body p {
+  margin-bottom: 1.5em
+}
+main .posts article .post-comments {}
+main .single-post article .post-comments {}
+main .pagination { }
