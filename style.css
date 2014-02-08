@@ -146,6 +146,19 @@ main .posts article .post-body p,
 main .single-post article .post-body p {
   margin-bottom: 1.5em
 }
+main .posts article .post-body img,
+main .single-post article .post-body img {
+  display: block;
+  margin: auto;
+}
+main .posts article .post-body a,
+main .posts article .post-body a:hover,
+main .posts article .post-body a:visited,
+main .single-post article .post-body a,
+main .single-post article .post-body a:hover,
+main .single-post article .post-body a:visited {
+  color: inherit;
+}
 main .posts article .post-comments {}
 main .single-post article .post-comments {}
 main .pagination {
