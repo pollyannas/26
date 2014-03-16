@@ -70,7 +70,11 @@ header.blog .author {
   display: none;
 }
 
-
+header.blog .description,
+aside.lateral .description {
+  text-align: center;
+  color: rgb(137, 146, 123);
+}
 
 aside.lateral {
   float: left;
